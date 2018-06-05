@@ -1,2 +1,6 @@
 # Pixy
-Quizz Site
+Site de quizz
+
+
+TODO :
+ - Page admin
