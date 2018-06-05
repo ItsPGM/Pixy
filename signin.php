@@ -25,6 +25,7 @@ if (!empty($_POST) || !empty($_SESSION)) {
 			$_SESSION["name"] = $name;
 			$_SESSION["password"] = $result["password"];
 			$_SESSION["points"] = $result["points"];
+			$_SESSION["rank"] = $result["rank"];
 
 			header("Location: index.php");
 		} else {

@@ -30,6 +30,16 @@ if (!empty($_POST)) {
                 <td> Points : </td>
                 <td> <?= $_SESSION["points"] ?> </td>
             </tr>
+            <?php
+            if ($_SESSION['rank'] == 1) {
+                ?>
+                <tr>
+                    <td>Administration</td>
+                    <td><a href="admin.php"><input type="button" value="Administration"></a></td>
+                </tr>
+                <?php
+            }
+            ?>
         </table>
     </div>
 
